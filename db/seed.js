@@ -2,7 +2,7 @@ const Recipe = require("../models/Recipe");
 
 const data = require("./data.json");
 
-const recipeEntries = data.map((recipe) => {
+const recipeEntries = data.hits.map((recipe) => {
   const result = {};
   result.Name = recipe.label;
   result.Ingredients = recipe.ingredientLines;

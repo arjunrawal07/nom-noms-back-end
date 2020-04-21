@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = mongoose;
 mongoose.set("useFindAndModify", false);
+mongoose.set("useNewUrlParser", true);
 
 let mongoURI = "";
 if (process.env.NODE_ENV === "production") {
