@@ -3,8 +3,9 @@ const Schema = mongoose.Schema;
 
 const favoriteSchema = new Schema({
   Favorite: Boolean,
-  FavoriteRecipe: [String],
+  FavoriteRecipes: [String],
 });
+
 const userSchema = new Schema({
   Username: String,
   Password: String,

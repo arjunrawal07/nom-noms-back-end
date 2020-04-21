@@ -2,11 +2,14 @@
   {
     "Username": "arjunrawal07",
     "Password": "nomnoms",
-    "Favorites": {}
+    "Favorites": {
+      "Favorite": true,
+      "FavoriteRecipes": ["Bagels and Lox"]
+    }
   },
   {
     "Username": "testing1",
     "Password": "password",
-    "Favorites": {}
+    "Favorites": { "Favorite": false, "FavoriteRecipes": [null] }
   }
 ]
