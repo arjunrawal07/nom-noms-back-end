@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 module.exports = mongoose;
 mongoose.set("useFindAndModify", false);
 mongoose.set("useNewUrlParser", true);
+mongoose.set("useUnifiedTopology", true);
 
 let mongoURI = "";
 if (process.env.NODE_ENV === "production") {

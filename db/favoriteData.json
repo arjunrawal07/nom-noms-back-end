@@ -1,0 +1,14 @@
+[
+  {
+    "Favorites": {
+      "Favorite": true,
+      "FavoriteRecipes": ["Bagels and Lox"]
+    }
+  },
+  {
+    "Favorites": {
+      "Favorite": false,
+      "FavoriteRecipes": [null]
+    }
+  }
+]

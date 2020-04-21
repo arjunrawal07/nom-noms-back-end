@@ -1,9 +1,14 @@
 const mongoose = require("../db/connection.js");
 const Schema = mongoose.Schema;
 
+const favoriteSchema = new Schema({
+  Favorite: Boolean,
+  FavoriteRecipe: [String],
+});
 const userSchema = new Schema({
   Username: String,
   Password: String,
+  Favorites: favoriteSchema,
 });
 
 const User = mongoose.model("User", userSchema);

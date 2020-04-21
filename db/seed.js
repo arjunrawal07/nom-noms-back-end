@@ -1,6 +1,5 @@
 const Recipe = require("../models/Recipe");
-
-const data = require("./data.json");
+const data = require("./recipeData.json");
 
 const recipeEntries = data.hits.map((recipe) => {
   const result = {};
