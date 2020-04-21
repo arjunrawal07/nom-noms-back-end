@@ -4,9 +4,9 @@ const data = require("./data.json");
 
 const recipeEntries = data.hits.map((recipe) => {
   const result = {};
-  result.Name = recipe.label;
-  result.Ingredients = recipe.ingredientLines;
-  result.URL = recipe.url;
+  result.Name = recipe.recipe.label;
+  result.Ingredients = recipe.recipe.ingredientLines;
+  result.URL = recipe.recipe.url;
   return result;
 });
 
