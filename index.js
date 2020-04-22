@@ -43,7 +43,7 @@ app.post("/user", (req, res) => {
 
 app.get("/search/", (req, res) => {
   console.log("this route is getting called");
-  console.log(req.query.q)
+  console.log(req.query.q);
   //   JSON.parse(req.query.q);
   Recipe.find({ Ingredients: req.query.q }, function (err, data) {
     if (err) console.log(err);
@@ -72,4 +72,8 @@ app.get("/alluseraccounts", (req, res) => {
   });
 });
 
-app.listen(4000, console.log("listening on 4000"));
+app.set("port", process.env.PORT || 4000);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+});
