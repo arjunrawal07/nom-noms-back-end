@@ -1,13 +1,49 @@
 const express = require("express");
-// var cors = require("cors");
 const app = express();
 const parser = require("body-parser");
-// app.use(cors());
-// app.get("/products/:id", function (req, res, next) {
-//   res.json({ msg: "This is CORS-enabled for all origins!" });
+const User = require("./models/User");
+const Recipe = require("./models/Recipe");
+const Favorite = require("./models/User");
+
+app.use(parser.json());
+app.get("/", (req, res) => {
+  Recipe.find({}).then((recipes) => {
+    res.json(recipes);
+  });
+});
+
+// app.post("/user", (req, res) => {
+//   console.log(req.body);
+//   User.create({
+//     Username: req.body.Username,
+//     Password: req.body.Password,
+//   }).then((newUser) => {
+//     console.log("Successfully, created", newUser);
+//     res.json(newUser);
+//   });
 // });
-// app.listen(3000, function () {
-//   console.log("CORS-enabled web server listening on port 3000");
-// });
+
+app.delete("/user/:Username", (req, res) => {
+  User.findOneAndDelete(
+    { Username: req.params.Username }
+    // { $pull: { Favorites: req.params.id } }
+  ).then((user) => {
+    console.log(user);
+    res.json(user);
+  });
+});
+
+app.post("/user", (req, res) => {
+  User.create(req.body).then((newAccount) => {
+    console.log(newAccount);
+    res.json(newAccount);
+  });
+});
+
+app.get("/alluseraccounts", (req, res) => {
+  User.find({}).then((allaccounts) => {
+    res.json(allaccounts);
+  });
+});
 
 app.listen(4000, console.log("listening on 4000"));
