@@ -52,22 +52,13 @@ app.post("/user", (req, res) => {
   });
 });
 
-app.get(
-  "/",
-  querymen.middleware({
-    q: {
-      type: String,
-      paths: ["Ingredients"],
-    },
-  }),
-  function (req, res) {
-    console.log(req.querymen.query);
-    Recipe.find(req.querymen.query, function (err, data) {
-      if (err) console.log(err);
-      res.json(data);
-    });
-  }
-);
+app.get("/", (req, res) => {
+  console.log(req.query);
+  res.json({ search: req.query });
+  // Recipe.find(req.querymen.q).then((search) => {
+  //   res.json(search);
+});
+
 // }) (req, res) => {
 //   let keyword = req.query;
 //   Recipe.find({ Ingredients: req.params.id, Ingredients: keyword })
