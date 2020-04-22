@@ -15,17 +15,6 @@ app.get("/", (req, res) => {
   });
 });
 
-// app.post("/user", (req, res) => {
-//   console.log(req.body);
-//   User.create({
-//     Username: req.body.Username,
-//     Password: req.body.Password,
-//   }).then((newUser) => {
-//     console.log("Successfully, created", newUser);
-//     res.json(newUser);
-//   });
-// });
-
 app.delete("/user/:Username", (req, res) => {
   User.findOneAndDelete(
     { Username: req.params.Username }
@@ -52,12 +41,21 @@ app.post("/user", (req, res) => {
   });
 });
 
-app.get("/", (req, res) => {
-  console.log(req.query);
-  res.json({ search: req.query });
-  // Recipe.find(req.querymen.q).then((search) => {
-  //   res.json(search);
+app.get("/search/", (req, res) => {
+  console.log("this route is getting called");
+  console.log(req.query.q)
+  //   JSON.parse(req.query.q);
+  Recipe.find({ Ingredients: req.query.q }, function (err, data) {
+    if (err) console.log(err);
+    res.json(data);
+  });
 });
+
+//   console.log(req.query);
+//   res.json({ search: req.query });
+//   // Recipe.find(req.querymen.q).then((search) => {
+//   //   res.json(search);
+// });
 
 // }) (req, res) => {
 //   let keyword = req.query;
