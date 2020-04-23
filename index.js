@@ -45,20 +45,6 @@ app.get("/search", (req, res) => {
   ) {}).then((recipes) => {
     console.log(recipes);
     res.json(recipes);
-    // let recipeObj = recipes.map((recipe) => {
-    //   let name = recipe.Name;
-    //   let splitName = name.split(" ");
-    //   let result = splitName.filter((word) => {
-    //     if (word.toLowerCase() == ingredient) {
-    //       reconstructed = splitName.join(" ");
-    //       console.log(reconstructed);
-    //       Recipe.find({ Name: reconstructed }).then((searchedRecipes) => {
-    //         console.log(searchedRecipes, "999999999");
-    //         // res.json(searchedRecipes);
-    //       });
-    //     }
-    //   });
-    // });
   });
 });
 
