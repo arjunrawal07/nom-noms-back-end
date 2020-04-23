@@ -3,10 +3,6 @@ const app = express();
 const parser = require("body-parser");
 const User = require("./models/User");
 const Recipe = require("./models/Recipe");
-const Favorite = require("./models/User");
-// import { middleware as query } from "querymen";
-var querymen = require("querymen");
-
 app.use(parser.json());
 
 app.get("/", (req, res) => {
@@ -16,10 +12,7 @@ app.get("/", (req, res) => {
 });
 
 app.delete("/user/:Username", (req, res) => {
-  User.findOneAndDelete(
-    { Username: req.params.Username }
-    // { $pull: { Favorites: req.params.id } }
-  ).then((user) => {
+  User.findOneAndDelete({ Username: req.params.Username }).then((user) => {
     console.log(user);
     res.json(user);
   });
@@ -41,30 +34,33 @@ app.post("/user", (req, res) => {
   });
 });
 
-app.get("/search/", (req, res) => {
+app.get("/search", (req, res) => {
   console.log("this route is getting called");
-  console.log(req.query.q);
-  //   JSON.parse(req.query.q);
-  Recipe.find({ Ingredients: req.query.q }, function (err, data) {
-    if (err) console.log(err);
-    res.json(data);
+  let ingredient = req.query.ingredient;
+  let reconstructed = "";
+
+  Recipe.find({ Ingredients: { $regex: ingredient, $options: "i" } }, function (
+    err,
+    docs
+  ) {}).then((recipes) => {
+    console.log(recipes);
+    res.json(recipes);
+    // let recipeObj = recipes.map((recipe) => {
+    //   let name = recipe.Name;
+    //   let splitName = name.split(" ");
+    //   let result = splitName.filter((word) => {
+    //     if (word.toLowerCase() == ingredient) {
+    //       reconstructed = splitName.join(" ");
+    //       console.log(reconstructed);
+    //       Recipe.find({ Name: reconstructed }).then((searchedRecipes) => {
+    //         console.log(searchedRecipes, "999999999");
+    //         // res.json(searchedRecipes);
+    //       });
+    //     }
+    //   });
+    // });
   });
 });
-
-//   console.log(req.query);
-//   res.json({ search: req.query });
-//   // Recipe.find(req.querymen.q).then((search) => {
-//   //   res.json(search);
-// });
-
-// }) (req, res) => {
-//   let keyword = req.query;
-//   Recipe.find({ Ingredients: req.params.id, Ingredients: keyword })
-//     .then((recipes) => {
-//       res.json(recipes);
-//     })
-//     .catch((err) => console.log(err));
-// });
 
 app.get("/alluseraccounts", (req, res) => {
   User.find({}).then((allaccounts) => {
