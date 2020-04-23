@@ -5,12 +5,14 @@ const User = require("./models/User");
 const Recipe = require("./models/Recipe");
 app.use(parser.json());
 
+//RETURNS ALL RECIPES IN DATABASE
 app.get("/", (req, res) => {
   Recipe.find({}).then((recipes) => {
     res.json(recipes);
   });
 });
 
+//DELETES A USER ACCOUNT
 app.delete("/user/:Username", (req, res) => {
   User.findOneAndDelete({ Username: req.params.Username }).then((user) => {
     console.log(user);
@@ -18,6 +20,7 @@ app.delete("/user/:Username", (req, res) => {
   });
 });
 
+//UPDATES FAVORITE RECIPES OF A SPECIFIC USER
 app.put("/user/:Username/Favorites/FavoriteRecipes", (req, res) => {
   User.findOneAndUpdate({ Username: req.params.Username }, req.body, {
     new: true,
@@ -27,6 +30,7 @@ app.put("/user/:Username/Favorites/FavoriteRecipes", (req, res) => {
   });
 });
 
+//CREATE USER PROFILE
 app.post("/user", (req, res) => {
   User.create(req.body).then((newAccount) => {
     console.log(newAccount);
@@ -34,6 +38,7 @@ app.post("/user", (req, res) => {
   });
 });
 
+//READ: RETURNS RECIPES BASED ON A KEYWORD SEARCH
 app.get("/search", (req, res) => {
   console.log("this route is getting called");
   let ingredient = req.query.ingredient;
@@ -48,6 +53,7 @@ app.get("/search", (req, res) => {
   });
 });
 
+//RETURNS ALL USER ACCOUNTS
 app.get("/alluseraccounts", (req, res) => {
   User.find({}).then((allaccounts) => {
     res.json(allaccounts);
