@@ -38,6 +38,14 @@ app.post("/user", (req, res) => {
   });
 });
 
+//FIND A USER PROFILE
+app.get("/user/:Username", (req, res) => {
+  User.findOne({ Username: req.params.Username }).then((foundUser) => {
+    console.log(foundUser);
+    res.json(foundUser);
+  });
+});
+
 //READ: RETURNS RECIPES BASED ON A KEYWORD SEARCH
 app.get("/search", (req, res) => {
   console.log("this route is getting called");
