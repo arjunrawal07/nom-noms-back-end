@@ -9,7 +9,7 @@ const favoriteSchema = new Schema({
 const userSchema = new Schema({
   Username: String,
   Password: String,
-  Favorites: favoriteSchema,
+  Favorites: [favoriteSchema],
 });
 
 const User = mongoose.model("User", userSchema);

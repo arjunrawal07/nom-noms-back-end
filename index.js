@@ -32,7 +32,6 @@ app.put("/user/:Username/Favorites/FavoriteRecipes", (req, res) => {
 
 //CREATE USER PROFILE
 app.post("/user", (req, res) => {
-  res.redirect("/user/:Username");
   User.create(req.body).then((newAccount) => {
     console.log(newAccount);
     res.json(newAccount);
@@ -41,7 +40,6 @@ app.post("/user", (req, res) => {
 
 //FIND A USER PROFILE
 app.get("/user/:Username", (req, res) => {
-  res.redirect("/user/:Username");
   User.findOne({ Username: req.params.Username }).then((foundUser) => {
     console.log(foundUser);
     res.json(foundUser);
