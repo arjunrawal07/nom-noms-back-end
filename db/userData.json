@@ -10,6 +10,6 @@
   {
     "Username": "testing1",
     "Password": "password",
-    "Favorites": { "Favorite": false, "FavoriteRecipes": [null] }
+    "Favorites": { "Favorite": false, "FavoriteRecipes": ["banana bread"] }
   }
 ]
