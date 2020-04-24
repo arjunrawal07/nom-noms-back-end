@@ -41,6 +41,7 @@ app.post("/user", (req, res) => {
 
 //FIND A USER PROFILE
 app.get("/user/:Username", (req, res) => {
+  res.redirect("/user/:Username");
   User.findOne({ Username: req.params.Username }).then((foundUser) => {
     console.log(foundUser);
     res.json(foundUser);
