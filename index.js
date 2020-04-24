@@ -50,7 +50,6 @@ app.get("/user/:Username", (req, res) => {
 app.get("/search", (req, res) => {
   console.log("this route is getting called");
   let ingredient = req.query.ingredient;
-  let reconstructed = "";
 
   Recipe.find({ Ingredients: { $regex: ingredient, $options: "i" } }, function (
     err,
