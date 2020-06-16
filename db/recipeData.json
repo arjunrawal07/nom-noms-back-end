@@ -7,6 +7,8 @@
   "hits": [
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_92f5af46a5adafda4b26ff16f4fb7c89",
         "label": "Stovetop Crab Innards",
         "image": "https://www.edamam.com/web-img/02f/02f244dc60783625aa4c7cede53d4cdb.jpg",
@@ -569,6 +571,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_48ed6e7ba8720ac3b782d7f388660adb",
         "label": "Grilled and Roasted Beef",
         "image": "https://www.edamam.com/web-img/894/8945e48691bc8c41d18677ae4955e259.jpg",
@@ -1200,6 +1205,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a4ac347a780725970a33b8804b5887f0",
         "label": "Sous Vide Porterhouse With Tamed Onion Salad",
         "image": "https://www.edamam.com/web-img/86b/86b49dfa86eb33f7cb3c03d821ff940d.jpg",
@@ -1811,6 +1819,10 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7174af5668bd6f4eeae69437c404788b",
         "label": "Grilled Red Snapper With Roasted Mixed Peppers And Asparagus",
         "image": "https://www.edamam.com/web-img/1a4/1a4251b11719110e4bfa6ec38c6a3dd8.jpg",
@@ -2418,6 +2430,10 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_f7fc8bcbbb3eec232b198783ab381b2c",
         "label": "Grilled Shrimp Cocktail",
         "image": "https://www.edamam.com/web-img/b4c/b4cdfda337cf3b6e9743964c1db6bb4f.jpg",
@@ -3061,6 +3077,8 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7f241fdabfec5120a5ec429a880cd6df",
         "label": "Chicken Stir Fry recipes",
         "image": "https://www.edamam.com/web-img/e41/e41788e5de0381a45ff02789786c67e2",
@@ -3691,6 +3709,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_20b8fe8bb47ec29c855173a3496e3b38",
         "label": "Half and Half",
         "image": "https://www.edamam.com/web-img/fc1/fc1a2177401f7512a1ccab0a087bd653.jpg",
@@ -4246,6 +4267,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_8c82ea1621c65848dc331c4197b5df62",
         "label": "Fruit Juice \"Gummies\"",
         "image": "https://www.edamam.com/web-img/fc4/fc419f37ff8112378bb3cb409cb894c9.jpg",
@@ -4796,6 +4820,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b7d800ae9a59a408ebac9d7b91889a0f",
         "label": "Ebi Shio (Shrimp Salt)",
         "image": "https://www.edamam.com/web-img/4c1/4c1b3d660f0237e0532b339fa4977921.jpg",
@@ -5304,6 +5331,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_bfc26e2c56e7de75cdc668b31573077c",
         "label": "Cook the Book: Canned Tuna",
         "image": "https://www.edamam.com/web-img/341/34132721374d436c46a6787b0123f8b9.jpg",
@@ -5901,6 +5931,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_9ef6d2e2e5a3dc38492615553c433d14",
         "label": "Chiptole Beef Jerky",
         "image": "https://www.edamam.com/web-img/5d3/5d36b3ee2c1bbe75296d3902b8ae04e5.jpg",
@@ -6539,6 +6572,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_5cfd32ab67396a6249f599b2f53e6b57",
         "label": "Ikura (Salmon Caviar)",
         "image": "https://www.edamam.com/web-img/e46/e465b384d5b6a1e575a9b4936dcd7cad.jpg",
@@ -7131,6 +7167,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_5a6c5ccaf55c1cb7686bbeef25e4d77f",
         "label": "Cakespy: Peeps Fluffernutter Recipe",
         "image": "https://www.edamam.com/web-img/412/4125410b21e92f307c731a6ecebfd9cc.jpg",
@@ -7690,6 +7729,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_ca3ef9e4afd898c59cf204216f0bdf45",
         "label": "Chiptole Beef Jerky",
         "image": "https://www.edamam.com/web-img/e97/e9754aacd46c5dda5c92975d8ffdfaf0.jpeg",
@@ -8328,6 +8370,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_77719b1deefdfc752d3dd7cc828f255f",
         "label": "Tofu With Crab Sauce",
         "image": "https://www.edamam.com/web-img/dee/dee201db843a5c408031f89842f3ea2b.jpg",
@@ -8944,6 +8989,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7aed82609f79393e54552e60576533be",
         "label": "Dinner Tonight: Duck Breast With Curry Seasoning",
         "image": "https://www.edamam.com/web-img/fe5/fe5078126db6022d48f2664b7eac9c42.jpg",
@@ -9544,6 +9592,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b753af7ad5789820c5ffc75902d89039",
         "label": "Grilled Branzini With Fennel, Lemon, And Shallot",
         "image": "https://www.edamam.com/web-img/3e4/3e44b41f225e1257cd6190ce3fa8b373.jpg",
@@ -10154,6 +10205,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_757af405c1e76763d791e2d307b19313",
         "label": "Roast Snapper With Spring Vegetables",
         "image": "https://www.edamam.com/web-img/dc3/dc353d850d6c42c69eb3fda201e87add.jpg",
@@ -10767,6 +10821,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_5aca7c07ea47af33f345d77d8e5f2fdc",
         "label": "Cook's Illustrated's Roasted Brined Turkey Recipe",
         "image": "https://www.edamam.com/web-img/e39/e39321b25c59ddd29ff9b3029d3edd08.png",
@@ -11333,6 +11390,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_65d4cfa3dcdf0bf79a5bd3a0ef7edd44",
         "label": "Red Snapper Ceviche With Jalapeno And Red Onion",
         "image": "https://www.edamam.com/web-img/04f/04f0a04a49534e3a1d9ff47ac47d8474.jpg",
@@ -11948,6 +12008,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_9da135da35a1926a0014d1088f55a510",
         "label": "Sole Meunière",
         "image": "https://www.edamam.com/web-img/871/871391297342cbb558669f8df290d6cc.jpg",
@@ -12539,6 +12602,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4759b7794d3b87d860e0dacc01e6fede",
         "label": "The Nasty Bits: Venison Heart Tartare Recipe",
         "image": "https://www.edamam.com/web-img/af6/af69ebc068b0528d85306d4aa9d80453.jpg",
@@ -13161,6 +13227,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_5d05c09a829f08f856ea85535bcb54c8",
         "label": "Turkey Stock: Oven Method",
         "image": "https://www.edamam.com/web-img/a7c/a7cfaef4ff6c242e3434b188e14c72a9.jpg",
@@ -13774,6 +13843,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_3f391c9ac06d47e911d76d71a68b907b",
         "label": "Eat for Eight Bucks: Curried Chicken Skewers with Lime-Apricot Glaze Recipe",
         "image": "https://www.edamam.com/web-img/35f/35f32aaff679b9bb7474ac784cb07284.jpg",
@@ -14362,6 +14434,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_aaa542a6a01a6bf9a3e0658246c651af",
         "label": "Seriously Asian: The Magic Of Miso Marination",
         "image": "https://www.edamam.com/web-img/ff5/ff5ec0deeb8f2c5a9ef2bcc55146783f.jpg",
@@ -14957,6 +15032,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4289fa45d5d6e84bef0ac4ccd9eab5c7",
         "label": "The Secret Ingredient (Ginger Jam): Sweet Ginger Seared Tuna Recipe",
         "image": "https://www.edamam.com/web-img/f63/f634624844ba80dbcfe10e485140814f.jpg",
@@ -15557,6 +15635,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_5415cf1b47c1d3307621d09a13008824",
         "label": "Connecticut-Style Warm Buttered Lobster Rolls Recipe",
         "image": "https://www.edamam.com/web-img/738/7386bf8c43fb49fc47fc586ffe1db115.jpg",
@@ -16175,6 +16256,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_5aea6619a206c47bf299a7db97d23722",
         "label": "Sunday Supper: Seared Duck Breast and Apricot Compote Recipe",
         "image": "https://www.edamam.com/web-img/e53/e5339fff09ec026bb56b3045a51390cf.jpg",
@@ -16796,6 +16880,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_3e57a26266905837a12457fe752874ab",
         "label": "Grilled Squid With Olive Oil and Lemon Recipe",
         "image": "https://www.edamam.com/web-img/e08/e0893dd684239ad82f0964b6f03bcc1e.jpg",
@@ -17411,6 +17498,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b730a7b3d823937e8b535b0c311d05ce",
         "label": "Mark Bittman's 45 Minute Roast Turkey Recipe",
         "image": "https://www.edamam.com/web-img/1ca/1caa599cec05c64965caeaf093a150ec.jpg",
@@ -18028,6 +18118,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_8b4768b4111dd65197cd1fb9c835d094",
         "label": "Gingery Roast Pork with Thyme Recipe",
         "image": "https://www.edamam.com/web-img/964/964bb59023a75ee6a9469bc64136e4ad.jpg",
@@ -18651,6 +18744,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b4d0c55c6e6a603b4dbdfa034cf45f44",
         "label": "Naomi Duguid's Fish Cakes and Fish Balls",
         "image": "https://www.edamam.com/web-img/041/04158b5869398c899942336274f0e0f7.jpg",
@@ -19253,6 +19349,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_8cb93206c93e1d746c8e02836acf86d0",
         "label": "Classic Peruvian-Style Fish Ceviche Recipe",
         "image": "https://www.edamam.com/web-img/b90/b9003e7bc8adca513f4a3455bf1e0fd8.jpg",
@@ -19878,6 +19977,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_c335b1e9f86a894abd82f8ca0bce3889",
         "label": "Dinner Tonight: Soy-Marinated Grilled Pork Tenderloin Recipe",
         "image": "https://www.edamam.com/web-img/8e5/8e5be89acf07e5f2e72dd18c56e67b34.jpg",
@@ -20507,6 +20609,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_f68f63fb721a057a4c0bddde8ece36a3",
         "label": "Mustard-Roasted Fish",
         "image": "https://www.edamam.com/web-img/9af/9af7aa4197e832b6f4a0e75c1d70ba9c.jpg",
@@ -21135,6 +21240,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_fe9ab96b282ba97d56c4a2d512c48350",
         "label": "Sunday Supper: Roast Fish Stuffed with Lemon and Herbs",
         "image": "https://www.edamam.com/web-img/838/838564b55a6b32baaa544a0e8c0cc850.jpg",
@@ -21753,6 +21861,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_336c9b92ac6652850015afd941e22dd9",
         "label": "River Cottage's Grilled Trout with Fennel",
         "image": "https://www.edamam.com/web-img/86b/86be02228b8d041fee5e77a6217ab1a6.jpg",
@@ -22358,6 +22469,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_bdff6619af51472d051aa24dc8ffee2a",
         "label": "Jambon-Wrapped Grilled Endive Recipe",
         "image": "https://www.edamam.com/web-img/96b/96b67f86b1a2c94c4a581de8de6d538a.jpg",
@@ -22981,6 +23095,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_20af583dc587b93b9cebf9172c77ffb0",
         "label": "French In A Flash: Cod En Papillote",
         "image": "https://www.edamam.com/web-img/14f/14f6544b7a1be8cbd93acc7870e2f7f1.jpg",
@@ -23613,6 +23730,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_e37cd1aaef6672b3fd7be74037ed2655",
         "label": "The Cartoon Kitchen: Fish, Leeks, And Mushrooms",
         "image": "https://www.edamam.com/web-img/df7/df7110d793ddbe0a52522ef9244b7644.jpg",
@@ -24238,6 +24358,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_9311802aacb2b3945c559f51bf4163c5",
         "label": "Cherry Coke-Glazed Country Ham Recipe",
         "image": "https://www.edamam.com/web-img/f31/f31ace02d2eed3eb49d08182b8b17b90.jpeg",
@@ -24863,6 +24986,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_f42b2fad02fe9b56f5e9c7675ed691c5",
         "label": "Fish Stock from 'The Catch'",
         "image": "https://www.edamam.com/web-img/922/922d8682009a56d594e1b2f353e14db8.jpg",
@@ -25495,6 +25621,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a8044b082b720316cc044bb20a8c7363",
         "label": "Dinner Tonight: Baked Chicken with Roasted Tomatillo Cream Sauce Recipe",
         "image": "https://www.edamam.com/web-img/477/477e272109898ff128684fa66524691e.jpg",
@@ -26099,6 +26228,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_0e23174d3670d24a8890f57c00ae425b",
         "label": "Turkey Confit with Olive Oil Recipe",
         "image": "https://www.edamam.com/web-img/ee5/ee59ce4c29567b0b703be2c408f444bd.jpg",
@@ -26745,6 +26877,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_187642f071cf39bccecdc8a51981530b",
         "label": "Dinner Tonight: Basil-Infused Tuna With Soy Vinaigrette Recipe",
         "image": "https://www.edamam.com/web-img/26b/26b0fc0d7c7f25902df7193cc9970aec.jpg",
@@ -27377,6 +27512,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_d9adb2e8f6975006ef0e3a4b6fe5be94",
         "label": "Wicked Good Lobster Rolls Recipe",
         "image": "https://www.edamam.com/web-img/afc/afcaca6d45afd25c947727f69812d292.jpg",
@@ -28004,6 +28142,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4518eff5a1bf66b44b42586199ee2da4",
         "label": "Steamed Walleye with Tatsoi, Ginger, and Scallions Recipe",
         "image": "https://www.edamam.com/web-img/56e/56ee8dab160787e8a8a8f16a6a600098.jpg",
@@ -28574,6 +28715,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_9582e162c7a0267dbf70e8aa274b6e46",
         "label": "Sunday Brunch: Shrimp and Scallop Ceviche",
         "image": "https://www.edamam.com/web-img/105/1055e654708c276e5b661c87f8c3e058.jpg",
@@ -29181,6 +29325,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_cf12545a9c2777caac0cf3fa1850b472",
         "label": "Cook the Book: Raoul's Shrimp Salad",
         "image": "https://www.edamam.com/web-img/382/3825e7100d00c3719f2e3049ee5598ec.jpg",
@@ -29835,6 +29982,9 @@
     },
     {
       "recipe": {
+        "rating": 0,
+        "favorite": false,
+
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_8d141b6f9b7f872dd59da17ae3b84295",
         "label": "Dinner Tonight: Crisp Chipotle Shrimp with Corn and Scallions Recipe",
         "image": "https://www.edamam.com/web-img/5a0/5a0bab2744bd185bc96f6e63bbfd4d3d.jpg",
