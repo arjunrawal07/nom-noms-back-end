@@ -8,6 +8,8 @@ const userAccounts = userData.map((userAccount) => {
   account.Username = userAccount.Username;
   account.Password = userAccount.Password;
   account.Favorites = userAccount.Favorites;
+  account.RecipeHistory = userAccount.RecipeHistory;
+  account.IngredientsToAvoid = userAccount.IngredientsToAvoid;
   return account;
 });
 

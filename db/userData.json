@@ -2,14 +2,16 @@
   {
     "Username": "arjunrawal07",
     "Password": "nomnoms",
-    "Favorites": {
-      "Favorite": true,
-      "FavoriteRecipes": ["Bagels and Lox"]
-    }
+    "Favorites": ["Bagels and Lox"],
+    "RecipeHistory": ["Vegan Chilli"],
+    "IngredientsToAvoid": ["nuts", "meat"]
   },
+
   {
     "Username": "testing1",
     "Password": "password",
-    "Favorites": { "Favorite": false, "FavoriteRecipes": ["banana bread"] }
+    "Favorites": ["banana bread"],
+    "RecipeHistory": ["Veggie Pizza", "Vegan Chilli"],
+    "IngredientsToAvoid": ["shellfish"]
   }
 ]

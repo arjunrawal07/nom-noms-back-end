@@ -5,6 +5,8 @@ const userSchema = new Schema({
   Username: String,
   Password: String,
   Favorites: [String],
+  RecipeHistory: [String],
+  IngredientsToAvoid: [String],
 });
 
 const User = mongoose.model("User", userSchema);
